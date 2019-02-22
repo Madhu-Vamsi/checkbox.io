@@ -24,7 +24,7 @@
     "supertest": "^3.4.2"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha test/abc.js --timeout 15000 --exit",
+    "test": "./node_modules/mocha/bin/mocha test/test_server.js --timeout 15000 --exit",
     "start": "node server.js"
   }
 
