@@ -20,5 +20,10 @@
     "lodash": "4.17.4",
     "mocha": "4.0.1",
     "puppeteer": "0.13.0"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/bootstrap.js --recursive test --timeout 15000 --exit",
+    "start": "node server.js"
   }
+
 }
