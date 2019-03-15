@@ -4,9 +4,9 @@ var fs = require("fs");
 
 var builders = {};
 
-var maxFuncLineThreshold = 5;
-var maxLinesOfCodeThreshold = 10;
-var maxConditionsThreshold = 5;
+var maxFuncLineThreshold = 100005;
+var maxLinesOfCodeThreshold = 100000;
+var maxConditionsThreshold = 5000;
 function main()
 {
 	var analysisFolder = __dirname;
