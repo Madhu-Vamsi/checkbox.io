@@ -32,11 +32,11 @@ var findFile, jsFiles, rootDir;
 			fs.readdirSync(analysisFolder).forEach(function(file) {
 				var stat;
 				stat = fs.statSync("" + analysisFolder + "/" + file);
-				//if (stat.isDirectory() && file!='node_modules')
-				//{
-				//	findFile("" + analysisFolder + "/" + file);
-				//}
-				/*else*/ if (file.split('.').pop() === 'js')
+				if (stat.isDirectory() && file!='node_modules')
+				{
+					findFile("" + analysisFolder + "/" + file);
+				}
+				else if (file.split('.').pop() === 'js')
 				{
 					jsFiles.push("" + analysisFolder + "/" + file);
 				}
