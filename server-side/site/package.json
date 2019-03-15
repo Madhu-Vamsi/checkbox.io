@@ -26,6 +26,10 @@
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha test/test_server.js --timeout 15000 --exit",
     "start": "node server.js"
+  },
+	"devDependencies": {
+    "escodegen": "^1.4.1",
+    "esprima": "^1.2.2"
   }
 
 }
