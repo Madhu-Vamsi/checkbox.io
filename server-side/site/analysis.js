@@ -36,7 +36,7 @@ var findFile, jsFiles, rootDir;
 				//{
 				//	findFile("" + analysisFolder + "/" + file);
 				//}
-				else if (file.split('.').pop() === 'js')
+				/*else*/ if (file.split('.').pop() === 'js')
 				{
 					jsFiles.push("" + analysisFolder + "/" + file);
 				}
