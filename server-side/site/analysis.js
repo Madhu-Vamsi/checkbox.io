@@ -5,7 +5,7 @@ var fs = require("fs");
 var builders = {};
 
 var maxFuncLineThreshold = 100005;
-var maxLinesOfCodeThreshold = 10;
+var maxLinesOfCodeThreshold = 100000;
 var maxConditionsThreshold = 5000;
 function main()
 {
